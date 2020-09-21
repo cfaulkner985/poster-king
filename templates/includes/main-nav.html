@@ -17,10 +17,10 @@
                 WWE
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="wwe-link">
-                <a href="" class="dropdown-item">Royal Rumble</a>
-                <a href="" class="dropdown-item">Wrestlemania</a>
-                <a href="" class="dropdown-item">SummerSlam</a>
-                <a href="" class="dropdown-item">Survivor Series</a>
+                <a href="{% url 'products' %}?category=royal-rumble" class="dropdown-item">Royal Rumble</a>
+                <a href="{% url 'products' %}?category=wrestlemania" class="dropdown-item">Wrestlemania</a>
+                <a href="{% url 'products' %}?category=summerslam" class="dropdown-item">SummerSlam</a>
+                <a href="{% url 'products' %}?category=survivor-series" class="dropdown-item">Survivor Series</a>
             </div>
         </li>
 
@@ -29,8 +29,8 @@
                 UFC
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="ufc-link">
-                <a href="" class="dropdown-item">PPV</a>
-                <a href="" class="dropdown-item">Fight Night</a>
+                <a href="{% url 'products' %}?category=ppv" class="dropdown-item">PPV</a>
+                <a href="{% url 'products' %}?category=fight-night" class="dropdown-item">Fight Night</a>
             </div>
         </li>
 
@@ -39,8 +39,8 @@
                 Boxing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="bloxing-link">
-                <a href="" class="dropdown-item">Classic Era</a>
-                <a href="" class="dropdown-item">Modern Era</a>
+                <a href="{% url 'products' %}?category=classic-era" class="dropdown-item">Classic Era</a>
+                <a href="{% url 'products' %}?category=modern-era" class="dropdown-item">Modern Era</a>
             </div>
         </li>
     </ul>
