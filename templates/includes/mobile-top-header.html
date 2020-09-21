@@ -5,6 +5,8 @@
             <p class="my-0">Search</p>
         </div>
     </a>
+
+    <!-- Logo and search bar on top of each page  for mobile view -->
     <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
         <form class="form" method="GET" action="{% url 'products' %}">
             <div class="input-group w-100">
@@ -27,6 +29,8 @@
             <p class="my-0">My Account</p>
         </div>
     </a>
+
+    <!-- Link to the user's account where new or exsisiting customers have various options   -->
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
         {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
@@ -40,6 +44,8 @@
         {% endif %}
     </div>
 </li>
+
+<!-- Link to shopping bag and how much user in their basket  -->
 <li class="list-inline-item">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="">
         <div class="text-center">

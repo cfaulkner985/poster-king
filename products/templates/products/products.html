@@ -23,6 +23,8 @@
                 <hr class="w-50 mb-1">
             </div>
         </div>
+
+        <!-- This is the different options for the sort funtionality for the user to select -->
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
@@ -41,6 +43,8 @@
                             </select>
                         </div>
                     </div>
+
+                    <!-- This allows the user to go back to products home and displays number of products -->
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
@@ -50,6 +54,8 @@
                         </p>
                     </div>
                 </div>
+
+                <!-- This is the details of the products which are displayed -->
                 <div class="row">
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -87,6 +93,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- This code orgaises the amount of products in a row when screen size is adjusted -->
                         {% if forloop.counter|divisibleby:1 %}
                             <div class="col-12 d-sm-none mb-5">
                                 <hr>
@@ -112,4 +120,32 @@
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    
+    <!-- Javascript code to be able to use the sort funtionality -->
+    <script type="text/javascript">
+        $('#sort-selector').change(function() {
+            var selector = $(this);
+            var currentUrl = new URL(window.location);
+
+            var selectedVal = selector.val();
+            if(selectedVal != "reset"){
+                var sort = selectedVal.split("_")[0];
+                var direction = selectedVal.split("_")[1];
+
+                currentUrl.searchParams.set("sort", sort);
+                currentUrl.searchParams.set("direction", direction);
+
+                window.location.replace(currentUrl);
+            } else {
+                currentUrl.searchParams.delete("sort");
+                currentUrl.searchParams.delete("direction");
+
+                window.location.replace(currentUrl);
+            }
+        })
+    </script>
 {% endblock %}
