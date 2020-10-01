@@ -1,9 +1,4 @@
 {% extends "base.html" %} {% load static %} {% block page_header %}
-<div class="container header-container">
-  <div class="row">
-    <div class="col"></div>
-  </div>
-</div>
 
 <!-- This displays the individual details on products when selected -->
 {% endblock %} {% block content %}
@@ -132,5 +127,8 @@
     </div>
   </div>
 </div>
-{% endblock %} {% block postloadjs %} {{ block.super }} {% include
-'products/includes/quantity_input_script.html' %} {% endblock %}
+{% endblock %} 
+{% block postloadjs %} 
+{{ block.super }} 
+{% include 'products/includes/quantity_input_script.html' %} 
+{% endblock %}
