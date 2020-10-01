@@ -1,4 +1,3 @@
-  
 {% extends "base.html" %}
 {% load static %}
 
@@ -6,25 +5,32 @@
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
 
-{% block content %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
 
-    <!-- Order Confirmation -->
+{% block content %}
+    <div class="overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4 text-center">Your Order is now complete</h2>
+                <h2 class="logo-font mb-4">Thank You</h2>
                 <hr>
-                <p class="text-center">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
+                <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 col-lg-7">
-                <div class="text-center">
+                <div class="order-confirmation-wrapper p-2 border">
                     <div class="row">
                         <div class="col">
-                            <h3 class="text-center">Order Info:</h3>
+                            <small class="text-muted">Order Info:</small>
                         </div>
                     </div>
 
@@ -48,7 +54,7 @@
 
                     <div class="row">
                         <div class="col">
-                            <h3 class="text-muted">Order Details:</h3>
+                            <small class="text-muted">Order Details:</small>
                         </div>
                     </div>
 
@@ -67,7 +73,7 @@
 
                     <div class="row">
                         <div class="col">
-                            <h3 class="text-muted">Delivering To:</h3>
+                            <small class="text-muted">Delivering To:</small>
                         </div>
                     </div>
 
@@ -151,7 +157,7 @@
 
                     <div class="row">
                         <div class="col">
-                            <h3 class="text-muted">Billing Info:</h3>
+                            <small class="text-muted">Billing Info:</small>
                         </div>
                     </div>
 
@@ -184,5 +190,24 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+			<div class="col-12 col-lg-7 text-right">
+                {% if from_profile %}
+                    <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
+                        <span class="icon mr-2">
+                            <i class="fas fa-angle-left"></i>
+                        </span>
+                        <span class="text-uppercase">Back to Profile</span>
+                    </a>
+                {% else %}
+                    <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-black rounded-0 my-2">
+                        <span class="icon mr-2">
+                            <i class="fas fa-gifts"></i>
+                        </span>
+                        <span class="text-uppercase">Now check out the latest deals!</span>
+                    </a>
+                {% endif %}
+			</div>
+		</div>
     </div>
 {% endblock %}
