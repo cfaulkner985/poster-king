@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Event, Product
+from .models import Event
 
 # Register your models here.
 
@@ -16,12 +16,4 @@ class EventAdmin(admin.ModelAdmin):
     ordering = ('sku',)
 
 
-class ProductAdmin(admin.ModelAdmin):
-    list_display = (
-        'friendly_name',
-        'name',
-    )
-
-
 admin.site.register(Event, EventAdmin)
-admin.site.register(Product, ProductAdmin)
