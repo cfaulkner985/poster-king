@@ -39,7 +39,29 @@ The posters on the site will be for combat sports fans so I will have a variatio
 *	I want to able to easily access my account so I can see my details, order history etc.
 *	I want to receive an email confirmation once I have registered to let me know that I created the account successfully.
 
+# Wireframe Mockups
+
 # Features
+Every page features a top responsive navigation bar with the logo in the top left, search bar in the middle and links to 'My Account' and shopping car on the top right. The 'My Account' will have a dropdown option for the user to either sign in or register. When signed in they the options will change to profile and log out. Each page has a footer with copyright information.
+
+Below the top navigation bar is a navigation bar which the user can use to navigate through different categories on the site. It has four different categories and when the user clicks on the one of the four options they will have more options via a dropdown menu.
+
+## Home page
+The home page has a main heading at the top of the page just below the navigation bar welcoming them to the site. Below this heading there are slider images of different rooms with the poster displayed in them. The user can click between them by clicking on the left side or right side of the images. The idea of this is to give the user an idea of what the poster would look like in a room setting.
+
+Below this a button which when click will bring the user to the all products page wheere they will see all the products for sale on the site. 
+
+## Posters page
+The poster page has a heading at the top to make the user aware of what page they are currently on.
+
+Below the heading the user will be able to see how many posters are currently displayed on the page. Beside it there is a sort by dropdown where the user can sort the posters by 8 fifferent views which will help the user navigate the poster better.
+
+The posters page is laid out in columns of thumbnail images of the posters which are 4 wide for desktop view, 1 columns wide for mobile devices, 2 or 3 columns wide for tablets.
+Below the posters it displays name of poster, price, category it belongs to and rating it has been given.
+
+#### This page will be the same for all posters page in whatever category the user selects
+
+Every page - except the home page - features its own hero image at the top, detailing a drawing or painting by the artist, or in the case of the about page, a photo of the artist in her studio. The purpose of the hero image is to grab attention and give a positive emotional response to the user.
 ## Existing Features
 
 
