@@ -62,6 +62,45 @@ Below the posters it displays name of poster, price, category it belongs to and 
 #### This page will be the same for all posters page in whatever category the user selects
 
 Every page - except the home page - features its own hero image at the top, detailing a drawing or painting by the artist, or in the case of the about page, a photo of the artist in her studio. The purpose of the hero image is to grab attention and give a positive emotional response to the user.
+
+## Posters detail page
+The poster page detail features an image of the poster which is increased to a larger image so user can see it in more detail. To the right of the image are the details relating to the poster. On the top is the name of the poster, below that is the price of the poster, below that is the category is which the poster belongs to and below that is the rating of the poster. Below this is a description of the event in which the poster belongs to. It details date, location, matches relating to the poster.
+
+It also has a quantity selector which allows the user to go up and down in quantity depending on how many the user wants. The minus sign will decrease the quantity and the plus sign will increase the quantity.
+
+The page has 2 buttons at the bottom. The first one is keep shopping button which will bring the user back to the products page so they can search for more posters. The second button is the add to cart button which when pressed will bring the poster the user want to the shopping cart. They will get a notification it has been added to the cart and the cart value will increase.
+
+## Shopping Cart page
+The shopping cart page has a heading at the top to make the user aware they are on the correct page.
+
+The shopping cart features the product info of the products that are currently in the shopping cart. It has the image of the poster which has the name and ID of the poster to the right of it. It also shows the price, quantity and sub total of the poster.
+
+This is also where the user can change there mind about the quantity of the posters they want to purchase. Below th quantity selector the user has the option to either update the quantity or remove the poster completely from there shopping basket.
+
+#### This is the same layout for every poster that is in the shopping cart
+
+Below this the the prices which will have the total value of the cart and the delivery cost below that. Then this will be added together to give the user the grand total. If the user spend £50 or more then they will get free delivery but if they have spent less they will be informed on how much more they have to get free delivery.
+
+The page has 2 buttons at the bottom. The first one is keep shopping button which will bring the user back to the products page so they can search for more posters. The second button is the secure checkout button which will bring the user to the checkout screen to complete the order.
+
+## Checkout page
+The Checkout cart page has a heading at the top to make the user aware they are on the correct page.
+
+The checkout page has 3 seperate forms for the user to fill out to the complete the order. The first form is the detals form where the user will enter in there full name and e-mail address. The second form is the delivery form where the user will fill out the following detais:
+* Street Address 1
+* Street Address 2 (If any)
+* Town or City
+* Country
+* Postal Code (If any)
+* Phone Number
+* County or State (If any)
+
+The third form is the payment where the usre will fill out there card details. If the user enters an incorrect card number they will be shown that they have entered an incorrect card number. But if the card number is correct they will be able to enter the details without any error notification.
+
+To the right of the three forms os the order summary which be able to see the order they are about to purchase. It will display the image, name, quantity, sub total, order total, delivery and grand total.
+
+The page has 2 buttons at the bottom. The first one is ajust cart button which will bring the user back to the shopping cart page to make any changes they want. The second button is the complete order button which will bring the user to the confirmation order page.
+
 ## Existing Features
 
 
