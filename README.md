@@ -83,6 +83,8 @@ Below this the the prices which will have the total value of the cart and the de
 
 The page has 2 buttons at the bottom. The first one is keep shopping button which will bring the user back to the products page so they can search for more posters. The second button is the secure checkout button which will bring the user to the checkout screen to complete the order.
 
+When the user click on the shopping cart icon and there is nothing in the cart it will let the user know and has a button to bring the user back to the posters page
+
 ## Checkout page
 The Checkout cart page has a heading at the top to make the user aware they are on the correct page.
 
@@ -100,6 +102,34 @@ The third form is the payment where the usre will fill out there card details. I
 To the right of the three forms os the order summary which be able to see the order they are about to purchase. It will display the image, name, quantity, sub total, order total, delivery and grand total.
 
 The page has 2 buttons at the bottom. The first one is ajust cart button which will bring the user back to the shopping cart page to make any changes they want. The second button is the complete order button which will bring the user to the confirmation order page.
+
+## Order Confirmation page
+The Order Confirmation page has a heading at the top to thank the user for shopping on the site.
+
+Below the heading the user will get a message to let them know the order has been confirmed and that they will recieve an e-mail confirmation. The confitmaion has an unique order number and the date and time of the sale. Below this is all the order details which has the details of the product, delivery and the billing information.
+
+The page has a button on the botton of the page which is keep shopping and that will bring the user back to the products page.
+
+## Sign Up page
+The Sign Up page has a heading at the top to make the user aware they are on the correct page.
+
+The Sign Up page has a link below the heading where the user can click to sign in if they already have an account. If not then they will have to fill out the form to create an account. They will first have to enter there e-mail and address twice and if they don't match they will get a notification and to go any further they will have to match. Then will then have to create a username whuch is unique to them and if it is already taken then they will have to come up with a new one. They will then have to create a password twice where they will both have to match or they wont be able to sign up. Theer is also validation on the password field so they will be informed if there password does not meet the criteria
+
+The page has 2 buttons at the bottom. The first one is back to login button which will bring the user back to the login page. The second button is the sign up button which will bring the user to a page where they will be told that they have been sent an e-mail and to confirm the account they will have to follow the link in the e-mail.
+
+## Login page
+The Login page has a heading at the top to make the user aware they are on the correct page.
+
+The Login page has a link below the heading where the user can click to sign up if they have not created an account yet. If they have an account then they will enter the username and password in the fields provided. Below this is a remember me tick box so if the user wants the computer they are using to remember there detail then they will click this box and if they dont or using a shared computer then they would leave it unticked.
+
+The page has 2 buttons at the bottom. The first one is back to home button which will bring the user back to the home page. The second button is the sign in button which will sign the user in so they can shop under there own account.
+
+## Password Reset page
+The Password Reset page has a heading at the top to make the user aware they are on the correct page.
+
+The Password Reset page has field where the user will type in there e-mail address so they can reset there password. If the user enters an incorrect e-mail adress then they will gert a notification letting them know that they must enter a valid e-mail address.
+
+The page has 2 buttons at the bottom. The first one is back to login button which will bring the user back to the login page. The second button is the reset my password button button which will send the user a link to there e-mail address in which they can follow to reset there password.
 
 ## Existing Features
 
