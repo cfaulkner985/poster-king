@@ -8,6 +8,35 @@ body {
   font-family: "Grandstander";
 }
 
+.home-page-heading {
+  background-color:black;
+  padding-top: 0.3em;
+}
+
+.categories-links {
+  background-color:#C5B358;
+  margin-bottom: 1em;
+  font-size: 125%;
+}
+
+.categories-links a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.categories-links a:hover {
+  border-bottom: 3px solid red;
+}
+
+.categories-links a.active {
+  border-bottom: 3px solid red;
+}
+
 h1 {
   padding-top: 1em;
 }
