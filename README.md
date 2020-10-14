@@ -44,25 +44,25 @@ The posters on the site will be for combat sports fans so I will have a variatio
 [Home Page](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Home%20Page%20%28Desktop%29.pdf) -
 [Posters](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Posters%20%28Desktop%29.pdf) -
 [Posters Detail](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Product%20Detail%20%28Desktop%29.pdf) -
-[Shopping Cart](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Shopping%20Cart%20%28Desktop%29.pdf) -
-[Checkout](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Checkout%20%28Desktop%29.pdf) -
+[Shopping Cart](https://github.com/cfaulkner985/poster-king/blob/c361a7bfb121c528eaa0b7e2d53ea55c21dd5d01/wireframes/desktop/Shopping%20Cart%20%28Desktop%29.pdf) -
+[Checkout](https://github.com/cfaulkner985/poster-king/blob/c361a7bfb121c528eaa0b7e2d53ea55c21dd5d01/wireframes/desktop/Checkout%20%28Desktop%29.pdf) -
 [Order Confirmation](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Order%20Confirmation%20%28Desktop%29.pdf) -
 [Sign In](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Sign%20In%20%28Desktop%29.pdf) -
 [Sign Up](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Sign%20Up%20%28Desktop%29.pdf) -
 [Profile](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Profile%20%28Desktop%29.pdf) -
-[Password Reset](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Password%20Reset%20%28Desktop%29.pdf)
+[Password Reset](https://github.com/cfaulkner985/poster-king/blob/c361a7bfb121c528eaa0b7e2d53ea55c21dd5d01/wireframes/desktop/Password%20Reset%20%28Desktop%29.pdf)
 
 ## Mobile
 [Home Page](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Home%20Page%20%28Mobile%29.pdf) -
 [Posters](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Posters%20%28Mobile%29.pdf) -
 [Posters Detail](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Product%20Detail%20%28Mobile%29.pdf) -
-[Shopping Cart](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Shopping%20Cart%20%28Mobile%29.pdf) -
-[Checkout](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Checkout%20%28Mobile%29.pdf) -
+[Shopping Cart](https://github.com/cfaulkner985/poster-king/blob/c361a7bfb121c528eaa0b7e2d53ea55c21dd5d01/wireframes/mobile/Shopping%20Cart%20%28Mobile%29.pdf) -
+[Checkout](https://github.com/cfaulkner985/poster-king/blob/c361a7bfb121c528eaa0b7e2d53ea55c21dd5d01/wireframes/mobile/Checkout%20%28Mobile%29.pdf) -
 [Order Confirmation](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Order%20Confirmation%20%28Mobile%29.pdf) -
 [Sign In](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Sign%20In%20%28Mobile%29.pdf) -
 [Sign Up](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Sign%20Up%20%28Mobile%29.pdf) -
 [Profile](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Profile%20%28Mobile%29.pdf) -
-[Password Reset](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Password%20Reset%20%28Mobile%29.pdf)
+[Password Reset](https://github.com/cfaulkner985/poster-king/blob/c361a7bfb121c528eaa0b7e2d53ea55c21dd5d01/wireframes/mobile/Password%20Reset%20%28Mobile%29.pdf)
 
 # Features
 ## Existing Features
