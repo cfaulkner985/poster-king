@@ -18,26 +18,26 @@ The posters on the site will be for combat sports fans so I will have a variatio
 # User Stories
 ## Customer
 ### Products
-*	I want to see all the product to see your full range so I may purchase one or many.
-*	I want to be able to see an induvial product and see what details are shown about that product.
-*	I want to be able to see how much my total is so I can see how much I am spending on the posters.
+*	I want to see all the posters to see your full range so I may purchase one or many.
+*	I want to be able to see individual posters and see what details are shown about that poster.   
+*	I want to be able to see how much my total is so I can see how much I am spending on the posters.  
 *	I want to be able to see the different categories and be able to sort through them without having to see all the products.
 *	I want to be able to search for a specific product to see if it is on the site.
 
 ### Purchasing
 *	Once I have selected the items I want to buy and added them to the basket I want to see them in the basket.
-*	I want to be able to be able to change the items in my basket e.g. change quantity of an item.
+*	I want to be able to be able to change the items in my cart e.g. change quantity of an item.   
 *	I want to be able to enter my payment details for the products as quickly and as easily as possible.
-*	I want to be sure that my payment information is secure before confirming the payment details on the site.
-*	I want a confirmation of my order on the site before confirming just to double check that I have not made any mistakes.
+*	I want a confirmation of my order on the site so I can make sure I have all the information inserted correctly.    
 *	I then want an email confirmation so I know that you have received the order and are processing it.
-
+     
 ## User
 *	I want to be able to easily create an account and be able to see the profile that I have created.
 *	I want to be able to login easily to see my account and be able to logout easily when I am finished with my account.
 *	I want to be able to recover my password in case I forget and am able to change if I wish to do so.
-*	I want to able to easily access my account so I can see my details, order history etc.
+*	I want to able to easily access my account so I can see my details, order history etc. I also want to be able to edit my details if needed    
 *	I want to receive an email confirmation once I have registered to let me know that I created the account successfully.
+*	I want to log out of my account easily and quickly.
 
 # Wireframe Mockups
 ## Desktop
@@ -49,7 +49,8 @@ The posters on the site will be for combat sports fans so I will have a variatio
 [Order Confirmation](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Order%20Confirmation%20%28Desktop%29.pdf) -
 [Sign In](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Sign%20In%20%28Desktop%29.pdf) -
 [Sign Up](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Sign%20Up%20%28Desktop%29.pdf) -
-[Profile](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Profile%20%28Desktop%29.pdf)
+[Profile](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Profile%20%28Desktop%29.pdf) -
+[Password Reset](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/desktop/Password%20Reset%20%28Desktop%29.pdf)
 
 ## Mobile
 [Home Page](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Home%20Page%20%28Mobile%29.pdf) -
@@ -60,7 +61,8 @@ The posters on the site will be for combat sports fans so I will have a variatio
 [Order Confirmation](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Order%20Confirmation%20%28Mobile%29.pdf) -
 [Sign In](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Sign%20In%20%28Mobile%29.pdf) -
 [Sign Up](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Sign%20Up%20%28Mobile%29.pdf) -
-[Profile](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Profile%20%28Mobile%29.pdf)
+[Profile](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Profile%20%28Mobile%29.pdf) -
+[Password Reset](https://github.com/cfaulkner985/poster-king/blob/1fafab1b0333eeb25e61d947da29c6775c884b01/wireframes/mobile/Password%20Reset%20%28Mobile%29.pdf)
 
 # Features
 ## Existing Features
@@ -174,7 +176,7 @@ The page has 2 buttons at the bottom. The first one is back to login button whic
 * I used autopep8 (https://github.com/hhatto/autopep8) to tidy up my python code
 
 ## Testing
-Testing was done on a seperate document which is: [Testing.md](https://github.com/cfaulkner985/poster-king/blob/master/Testing.md)
+Testing was done on a seperate document which is: [Testing.md](https://github.com/cfaulkner985/poster-king/blob/master/TESTING.md)
 
 ## Deployment
 This project was developed using the GitPod (https://gitpod.io/) and was committed to git and pushed to GitHub using the built in function within GitPod.
@@ -206,7 +208,7 @@ Product descptions - https://www.wikipedia.org/
 
 Logo - Was created in Paint and https://www.font-generator.com/
 
-Images for the slider - https://desenio.co.uk/ & 
+Images for the slider - https://desenio.co.uk/
 
 Code Institte includeing the Boutique Ado project which helped me alot.
 
