@@ -1,0 +1,1 @@
+  web: gunicorn poster_king.wsgi:application
