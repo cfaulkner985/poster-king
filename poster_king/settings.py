@@ -27,7 +27,7 @@ SECRET_KEY = '=)iblro^vn6zs!2w8^i-(#=x=(d437gpcxvjotuh438vu@fg1n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cfaulkner985-poster-king.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['poster-king.herokuapp.com', 'localhost']
 
 
 # Application definition
