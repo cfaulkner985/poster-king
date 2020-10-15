@@ -42,6 +42,7 @@
 	{% endblock %}
 
 	<title>Poster King {% block extra_title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{%  static 'img/poster-king-favicon.png' %}">
 </head>
 
 <body>
@@ -123,6 +124,7 @@
 		</div>
 	</header>
 
+
     {% if messages %}
         <div class="message-container">
             {% for message in messages %}
@@ -154,5 +156,6 @@
     {% endblock %}
 
     
+    <footer><h5> © 2020 COPYRIGHT | POSTER KING | ALL RIGHTS RESERVED </h5></footer>
   </body>
 </html>

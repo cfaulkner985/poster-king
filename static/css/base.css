@@ -4,17 +4,16 @@ html {
 
 body {
   height: calc(100vh - 164px);
-  color: #555;
   font-family: "Grandstander";
 }
 
 .home-page-heading {
-  background-color:black;
+  background-color: black;
   padding-top: 0.3em;
 }
 
 .categories-links {
-  background-color:#C5B358;
+  background-color: #c5b358;
   margin-bottom: 1em;
   font-size: 125%;
 }
@@ -30,11 +29,11 @@ body {
 }
 
 .categories-links a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #ff1a1a;
 }
 
 .categories-links a.active {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #ff1a1a;
 }
 
 h1 {
@@ -44,6 +43,16 @@ h1 {
 h2 {
   padding-top: 1em;
   padding-bottom: 0.5em;
+  font-size: 300%;
+  color: #ff1a1a;
+}
+
+h5 {
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  color: #ff1a1a;
+  font-size: 75%;
 }
 
 /* from Bulma */
@@ -67,7 +76,7 @@ h2 {
   background: black;
   color: white;
   min-width: 260px;
-  width: 100px; 
+  width: 100px;
   margin: 0 auto;
   display: block;
 }
@@ -84,7 +93,7 @@ h2 {
 .btn-black:active,
 .btn-black:focus {
   background: #222;
-  color: white;
+  color: #ff1a1a;
 }
 
 .text-black {
@@ -97,16 +106,6 @@ h2 {
 
 .bg-black {
   background: #000 !important;
-}
-
-.overlay {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background: white;
-  z-index: -1;
 }
 
 .btt-link,
@@ -205,15 +204,8 @@ h2 {
   .header-container {
     padding-top: 164px;
   }
-}
 
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-  .header-container {
-    padding-top: 116px;
-  }
-
-  body {
-    height: calc(100vh - 116px);
+  h5 {
+    font-size: 100%;
   }
 }
