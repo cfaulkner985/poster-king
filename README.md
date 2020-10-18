@@ -175,6 +175,7 @@ The page has 2 buttons at the bottom. The first one is back to login button whic
 * Block templates were used so I don’t have to repeat my code to save time
 * I used Amazon AWS (https://aws.amazon.com/) for storing media and static files for use on my Heroku site
 * I used autopep8 (https://github.com/hhatto/autopep8) to tidy up my python code
+* Other technologies used can be found in my [Requirements](https://github.com/cfaulkner985/poster-king/blob/master/requirements.txt) file.
 
 ## Testing
 Testing was done on a seperate document which is: [Testing.md](https://github.com/cfaulkner985/poster-king/blob/master/TESTING.md)
