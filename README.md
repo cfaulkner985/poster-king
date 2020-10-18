@@ -173,6 +173,7 @@ The page has 2 buttons at the bottom. The first one is back to login button whic
 * I used JQuery (https://jquery.com/) for the JavaScript in the website
 * I used Font Awesome (https://fontawesome.com) to add the icons used in the site
 * Block templates were used so I don’t have to repeat my code to save time
+* I used Amazon AWS (https://aws.amazon.com/) for storing media and static files for use on my Heroku site
 * I used autopep8 (https://github.com/hhatto/autopep8) to tidy up my python code
 
 ## Testing
@@ -189,9 +190,31 @@ In GitHub the repository is cfaulkner985/poster-king (https://github.com/cfaulkn
 6. From this page I scroll down to the bottom and click on 'Deploy Branch' and make sure 'master' is selected.
 7. After this is then lets me know it is seccessfully deployed and can be found at (https://poster-king.herokuapp.com/).
 
-### Enviromental Variables
-STRIPE_SECRET_KEY = sk_test_51HWkmcDjRi8A10veALZ0pN026QXz2AxtnRJ1FIemsNcNCwAYeIYY0XTOGHbtJ5NoHgRlsK9DziT9Rl1YYrcUxVKP00EGniLvTF
-STRIPE_PUBLIC_KEY = pk_test_51HWkmcDjRi8A10vetThFdSScrABqiauWU7ZeDjTRyzXv8OhiqEV0cnL5eHma6g4ju8hjrQe5laaU4VFn7oSk8aiX00jGHsgnYA
+## Setting up Heroku
+I went to [Heroku](https://www.heroku.com/) to set up an app 'Poster King'
+
+### Heroku Postgres
+- On Gitpod console install dj-database-url: ` pip3 install dj-database-url`. This package allows connection to a database URL.
+- Then install psycopg2  `pip3 install psycopg2` which allows connection to the postgres database.
+- Create a requirements.txt file  ```pip3 freeze > requirements.txt```
+**import dj_database_url** at top of settings.py file and change default sqlite3 database to be default dj_database_url
+```DATABASES = { 'default' :dj_database_url.parse(os.environ.get('DATABASE_URL')) }```
+Add DATABASE_URL config vars code to env.py 
+Make migrations to migrate all files to new database.
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+```
+
+Create new superuser via ```python3 manage.py createsuperuser``` and add username, email and password.
+This will be production database for deploying on Heroku
+
+Ensure Heroku has all Config Vars required = SECRET_KEY, STRIPE_SECRET, STRIPE_PUBLISHABLE, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
+add DISABLE_COLLECTSTATIC and set to 1 this will disable staticfiles from being added to Heroku meaning can use AWS bucket.
+To allow deployment via github automatic/manual select Deploy> GitHub> connect to repo = 'ecommerce' in Heroku menu. For automatic deployment select button 'enable automatic deploys'.
+Otherwise use manual deployment to 'deploy branch'.
 
 ## Committing files to GitHub
 When I make changes to each file I push them from GitHub from GitPod and below are the steps I do to do this. This is essential as to not losing any of the work I have done.
@@ -209,6 +232,8 @@ Product descptions - https://www.wikipedia.org/
 Logo - Was created in Paint and https://www.font-generator.com/
 
 Images for the slider - https://desenio.co.uk/
+
+Wine House - Helping me with writing my ReadMe file on setting up heroku
 
 Code Institte includeing the Boutique Ado project which helped me alot.
 
