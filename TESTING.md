@@ -132,6 +132,16 @@ I used http://pep8online.com/ to check for errors in the python code
 *	The button load up correctly as expected
 *	Clicking on the button brings me to the posters page as expected.
 
+#### Home Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/home-page-desktop.png">
+</p>
+
+#### Home Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/home-page-mobile.png">
+</p>
+
 ## Posters Page
 ### Heading
 *	The heading of the posters loads when the page starts as expected.
@@ -148,12 +158,22 @@ I used http://pep8online.com/ to check for errors in the python code
 *	Clicking on the poster image bring me to the poster dtail page on each poster as expected
 *	The information below the poster shows the correct information and clicking on the category bring me to the correct category as expected
 
-## Posters Detail Page
+#### Posters Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/posters-desktop.png">
+</p>
+
+#### Posters Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/posters-mobile.png">
+</p>
+
+## Product Detail Page
 ### Image
 *	A larger view of the image loads correctly to the left of the information as expected
 *	When the screen is reduced the image goes above the information as expected
 
-### Poster Information
+### Product Information
 *	All of the imformation relating the poster loads to the right of the image as expected
 *	Clicking on the category bring me to the correct category as expected
 *	When the screen is reduced the information goes below the image as expected
@@ -170,6 +190,16 @@ I used http://pep8online.com/ to check for errors in the python code
 ### Add to Cart button
 *	The button loads up correctly as expected
 *	Clicking on the button add the item to the cart as expected.
+
+#### Product Detail Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/product-detail-desktop.png">
+</p>
+
+#### Product Detail Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/product-detail-mobile.png">
+</p>
 
 ## Shopping Cart Page
 ### Heading
@@ -197,6 +227,16 @@ I used http://pep8online.com/ to check for errors in the python code
 *	The delivery charge is 0 when the cart total is 50 or more and this calculates correctly
 *	The notification below letting the user know how much they have to spend to get free delivery calculates correctly
 *	The grand total which is the cart total plus the delivery calculates correctly as expected
+
+#### Shopping Cart Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/shopping-cart-desktop.png">
+</p>
+
+#### Shopping Cart Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/shopping-cart-mobile.png">
+</p>
 
 ## Checkout Page
 ### Heading
@@ -227,6 +267,16 @@ I used http://pep8online.com/ to check for errors in the python code
 *	The button loads up correctly as expected
 *	Clicking on the button completes the order and brings the user to the order confimration page as expected.
 
+#### Checkout Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/checkout-desktop.png">
+</p>
+
+#### Checkout Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/checkout-mobile.png">
+</p>
+
 ## Order Confirmation Page
 ### Headings
 *	The thank you message loads correctly as expected
@@ -240,6 +290,16 @@ I used http://pep8online.com/ to check for errors in the python code
 ### Continue shopping button
 *	The button loads up correctly as expected
 *	Clicking on the button loads up the poster page so the user can keep shopping as expected.
+
+#### Order Confirmation Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/order-confirmation-desktop.png">
+</p>
+
+#### Order Confirmation Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/order-confirmation-mobile.png">
+</p>
 
 ## Login Page
 ### Heading
@@ -273,6 +333,16 @@ I used http://pep8online.com/ to check for errors in the python code
 
 ### Forgot password link
 *	The forgot password link loads correctly and when clicked will bring the user to the forgot password page as expected
+
+#### Sign In Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/sign-in-desktop.png">
+</p>
+
+#### Sign In Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/sign-in-mobile.png">
+</p>
 
 ## Sign Up Page
 ### Heading
@@ -309,6 +379,16 @@ I used http://pep8online.com/ to check for errors in the python code
 *	Clicking on the button with all valid information will let the user know an e-mail has been sent to their e-mail account and to follow the link to finish creating account.
 *	Clicking on the button with not valid information will let the user know what went wrong and to try again.
 
+#### Sign Up Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/sign-up-desktop.png">
+</p>
+
+#### Sign Up Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/sign-up-mobile.png">
+</p>
+
 ## Profile page
 ### Heading
 *	The heading of the sign up page loads when the page starts as expected.
@@ -327,6 +407,16 @@ I used http://pep8online.com/ to check for errors in the python code
 *	Clicking on the button will update the profile information if it passes all of the validation.
 *	Clicking on the button will not update the profile if validation fails and will let the user know what went wrong and to try again.
 
+#### Profile Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/profile-desktop.png">
+</p>
+
+#### Profile Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/profile-mobile.png">
+</p>
+
 ## Password reset page
 ### Heading
 *	The heading of the password reset page loads when the page starts as expected.
@@ -344,6 +434,16 @@ I used http://pep8online.com/ to check for errors in the python code
 *	The button loads up correctly as expected
 *	Clicking on the button will send a link to the e-mail address if the e-mail address is valid on the system.
 *	Clicking on the button will let the user know the e-mail address is not recognized if not on the system.
+
+#### Password Reset Page - Desktop View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/password-reset-desktop.png">
+</p>
+
+#### Password Reset Page - Mobile View
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/password-reset-mobile.png">
+</p>
 
 ## Further Testing
 *	I checked the website on different devices and from different locations and looks good.
