@@ -19,7 +19,7 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
-    
+
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -190,3 +190,28 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
+
+
+def handler404(request, exception):
+    """ Handler for 404 errors
+
+    Args:
+        request: HTTP request object
+        exception: exception raised
+
+    Returns:
+        Rendered 404 html
+    """
+    return render(request, '404.html', status=404)
+
+
+def handler500(request):
+    """ Handler for 500 errors
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        Rendered 500 html
+    """
+    return render(request, '500.html', status=500)

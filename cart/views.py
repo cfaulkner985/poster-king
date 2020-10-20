@@ -102,3 +102,28 @@ def remove_from_cart(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
+
+
+def handler404(request, exception):
+    """ Handler for 404 errors
+
+    Args:
+        request: HTTP request object
+        exception: exception raised
+
+    Returns:
+        Rendered 404 html
+    """
+    return render(request, '404.html', status=404)
+
+
+def handler500(request):
+    """ Handler for 500 errors
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        Rendered 500 html
+    """
+    return render(request, '500.html', status=500)

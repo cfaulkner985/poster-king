@@ -47,6 +47,20 @@ h1 {
 h2 {
   font-size: 250%;
   color: #ff1a1a;
+  padding-top: 0.5em
+}
+
+h3 {
+  padding-bottom: 0.5em;
+  text-align: center;
+  color: #ff1a1a;
+  font-size: 200%;
+}
+
+h4 {
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-size: 150%;
 }
 
 h5 {
@@ -216,6 +230,6 @@ h5 {
   }
 
   .input-group {
-  display: flex;
-}
+    display: flex;
+  }
 }
