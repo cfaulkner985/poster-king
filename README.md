@@ -15,6 +15,8 @@ This website is based for people of all ages who like collecting sports posters.
 
 The posters on the site will be for combat sports fans so I will have a variation of UFC, WWE and Boxing posters as there is a big fan base for all 3 sports which I am also a fan of.
 
+I will design the website in a king theme with red and gold. I want to use them colour in different area of the site but not too much as I dont want to over do it with them colours. I also want to use the Grandstander font on most of the site as its a font I like and think it will suit the theme of the site well.
+
 # User Stories
 ## Customer
 ### Products
@@ -158,7 +160,7 @@ The page has 2 buttons at the bottom. The first one is back to login button whic
 ## Features to implement in the future
 * I would set up a product management system where I would be able to modify posters in the front end instead of using the back end. I would have a sections for adding, editing and deleting posters.
 * I would like to add more cagegories of posters instead of just focusing in on sports movies. I would like to expand into movie posters as I know this is a very popular market.
-* I would also like to add framing to the poster ion the future where I would give the user an option of a few frames they could choose to go around the poster if that is something they would like to add.
+* I would also like to add more sizes in the future to the posters. At the minute I have decided to just have a default size but I have left the code in for sizes so in the future it will be easier for me to add it in.
 
 ## Technologies Used
 * I have used HTML, CSS and JavaScript programming languages.
