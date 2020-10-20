@@ -8,7 +8,15 @@ from checkout.models import Order
 
 
 def profile(request):
-    """ Display the user's profile. """
+    """ Funtion for displaying the users profile
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        This returns the users profile and if the user updates the
+        profile then they will let them know they have been successful
+    """
     profile = get_object_or_404(UserProfile, user=request.user)
 
     if request.method == 'POST':
@@ -31,6 +39,18 @@ def profile(request):
 
 
 def order_history(request, order_number):
+    """ Funtion for displaying the order history
+
+    Args:
+        request: HTTP request object
+        order_number: order number passed into the funtion
+
+    Returns:
+        This returns the order history which will display the previous
+        order from a exsisting customer when logged in. This will display
+        the information relating to the order and can be clicked on to
+        see further details.
+    """
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (

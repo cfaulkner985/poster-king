@@ -19,6 +19,17 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
+    """ Funtion for the payment in the checkout process
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        This returns the information needed for the payments which
+        is done in stripe. It links the payment to the cart information
+        and will display an error message if the payment cannot be
+        processed.
+    """
 
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
@@ -37,6 +48,16 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
+    """ Funtion for completed the entire checkout process
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        This returns the entire checkout information and returns
+        either if the checkout was a success or if there was an issue
+        in the checkout process.
+    """
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -150,8 +171,16 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
-    """
-    Handle successful checkouts
+    """ Funtion for successful checkouts
+
+    Args:
+        request: HTTP request object
+        order_number: order number passed into the funtion
+
+    Returns:
+        This returns a successful order by sending an confirmation
+        e-mail that the order has been completed. This takes the users
+        information and processes it to the checkout sucess template
     """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)

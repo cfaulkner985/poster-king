@@ -5,6 +5,17 @@ from products.models import Product
 
 
 def cart_contents(request):
+    """ Handler displaying the contents of the cart
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        This returns the items deisplayed in the shopping cart.
+        It will returns information relating the the product and
+        the prices relating the cost in the cart. It also calculates
+        out delivery charges if needed.
+    """
 
     cart_items = []
     total = 0

@@ -13,8 +13,18 @@ def view_cart(request):
 
 
 def add_to_cart(request, item_id):
-    """ Add a quantity of the specified product to the shopping cart """
+    """ Funtion for adding items in the shopping cart
 
+    Args:
+        request: HTTP request object
+        item_id: Id for the item is passed into the funtion
+
+    Returns:
+        This returns the process for adding items in the cart.
+        When the clicks the add to cart button then the item
+        will be moved to the cart. I have decided to keep size in
+        as I will be using it in the future
+    """
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -47,7 +57,19 @@ def add_to_cart(request, item_id):
 
 
 def adjust_cart(request, item_id):
-    """Adjust the quantity of the specified product to the specified amount"""
+    """ Funtion adjusting items in the shopping cart
+
+    Args:
+        request: HTTP request object
+        item_id: Id for the item is passed into the funtion
+
+    Returns:
+        This returns the process of the adusting items in the cart
+        When the plus and minus signs are clicked then it adjusts the quantity
+        in the cart. When the update button is clicked with a new quantity
+        then it will update the product in the cart
+
+    """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -78,7 +100,16 @@ def adjust_cart(request, item_id):
 
 
 def remove_from_cart(request, item_id):
-    """Remove the item from the shopping cart"""
+    """ Funtion removing item from shopping cart
+
+    Args:
+        request: HTTP request object
+        item_id: Id for the item is passed into the funtion
+
+    Returns:
+        This returns the process of the items being removed from the cart.
+        When the remove link is clicked the item is removed from the cart
+    """
 
     try:
         product = get_object_or_404(Product, pk=item_id)

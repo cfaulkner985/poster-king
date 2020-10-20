@@ -1,4 +1,3 @@
-""" Views for products app """
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
@@ -6,11 +5,20 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category
 
-# Create your views here.
-
 
 def all_products(request):
-    """ A view to show all products, including sorting and search queries """
+    """ Funtion to show all products, including sorting and search queries
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        This returns all of the products information which includes the
+        the sorting of the products into the different categories. It also
+        returns the search results where a user will search for a product
+        and it will bring up the search results relationg to the keyword
+        that was typed in
+    """
 
     products = Product.objects.all()
     query = None
@@ -60,7 +68,17 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """ Funtion to show individual products details
+
+    Args:
+        request: HTTP request object
+        product_id: product id passed into the funtion
+
+    Returns:
+        This returns the product detail template which will display the
+        individual information of a product when selected in the main
+        products page
+    """
 
     product = get_object_or_404(Product, pk=product_id)
 
