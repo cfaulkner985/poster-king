@@ -8,7 +8,7 @@ from checkout.models import Order
 
 
 def profile(request):
-    """ Funtion for displaying the users profile
+    """ Function for displaying the users profile
 
     Args:
         request: HTTP request object
@@ -39,11 +39,11 @@ def profile(request):
 
 
 def order_history(request, order_number):
-    """ Funtion for displaying the order history
+    """ Function for displaying the order history
 
     Args:
         request: HTTP request object
-        order_number: order number passed into the funtion
+        order_number: order number passed into the function
 
     Returns:
         This returns the order history which will display the previous

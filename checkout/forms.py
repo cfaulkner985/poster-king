@@ -3,7 +3,7 @@ from .models import Order
 
 
 class OrderForm(forms.ModelForm):
-    """ Class for the for the order form in the checkout page"""
+    """ Class for the order form in the checkout page"""
     class Meta:
         model = Order
         fields = ('full_name', 'email', 'phone_number',

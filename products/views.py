@@ -7,7 +7,7 @@ from .models import Product, Category
 
 
 def all_products(request):
-    """ Funtion to show all products, including sorting and search queries
+    """ Function to show all products, including sorting and search queries
 
     Args:
         request: HTTP request object
@@ -68,11 +68,11 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ Funtion to show individual products details
+    """ Function to show individual products details
 
     Args:
         request: HTTP request object
-        product_id: product id passed into the funtion
+        product_id: product id passed into the function
 
     Returns:
         This returns the product detail template which will display the

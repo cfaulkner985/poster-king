@@ -21,7 +21,7 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
-    """ Funtion for the payment in the checkout process
+    """ Function for the payment in the checkout process
 
     Args:
         request: HTTP request object
@@ -50,7 +50,7 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
-    """ Funtion for completed the entire checkout process
+    """ Function for completed the entire checkout process
 
     Args:
         request: HTTP request object
@@ -173,11 +173,11 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
-    """ Funtion for successful checkouts
+    """ Function for successful checkouts
 
     Args:
         request: HTTP request object
-        order_number: order number passed into the funtion
+        order_number: order number passed into the function
 
     Returns:
         This returns a successful order by sending an confirmation

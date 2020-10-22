@@ -13,7 +13,7 @@ def view_cart(request):
 
 
 def add_to_cart(request, item_id):
-    """ Funtion for adding items in the shopping cart
+    """ Function for adding items in the shopping cart
 
     Args:
         request: HTTP request object
@@ -25,6 +25,7 @@ def add_to_cart(request, item_id):
         will be moved to the cart. I have decided to keep size in
         as I will be using it in the future
     """
+    raise Exception("ABC")
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -57,11 +58,11 @@ def add_to_cart(request, item_id):
 
 
 def adjust_cart(request, item_id):
-    """ Funtion adjusting items in the shopping cart
+    """ Function adjusting items in the shopping cart
 
     Args:
         request: HTTP request object
-        item_id: Id for the item is passed into the funtion
+        item_id: Id for the item is passed into the function
 
     Returns:
         This returns the process of the adusting items in the cart
@@ -100,7 +101,7 @@ def adjust_cart(request, item_id):
 
 
 def remove_from_cart(request, item_id):
-    """ Funtion removing item from shopping cart
+    """ Function removing item from shopping cart
 
     Args:
         request: HTTP request object
