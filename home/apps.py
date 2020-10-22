@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class HomeConfig(AppConfig):
-    """ Configuation file for the home app"""
+    """ Configuration file for the home app"""
     name = 'home'

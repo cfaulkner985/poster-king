@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class BagConfig(AppConfig):
-    """ Configuation file for the cart app"""
+    """ Configuration file for the cart app"""
     name = 'cart'
