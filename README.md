@@ -15,7 +15,7 @@ This website is based for people of all ages who like collecting sports posters.
 
 The posters on the site will be for combat sports fans so I will have a variation of UFC, WWE and Boxing posters as there is a big fan base for all 3 sports which I am also a fan of.
 
-I will design the website in a king theme with red and gold. I want to use them colour in different area of the site but not too much as I dont want to over do it with them colours. I also want to use the Grandstander font on most of the site as its a font I like and think it will suit the theme of the site well.
+I will design the website in a king theme with red and gold. I want to use them colour in different area of the site but not too much as I don’t want to overdo it with them colours. I also want to use the Grandstander font on most of the site as it’s a font I like and think it will suit the theme of the site well.
 
 # User Stories
 ## Customer
@@ -184,7 +184,18 @@ Testing was done on a seperate document which is: [Testing.md](https://github.co
 
 ## Deployment
 This project was developed using the GitPod (https://gitpod.io/) and was committed to git and pushed to GitHub using the built in function within GitPod.
-In GitHub the repository is cfaulkner985/poster-king (https://github.com/cfaulkner985/poster-king). Below is the way to deploy the files to Heroku:
+In GitHub the repository is cfaulkner985/poster-king (https://github.com/cfaulkner985/poster-king). 
+
+Below is the way to deploy the files to Github:
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select ‘cfaulkner985/poster-king’
+3. From the menu items near the top of the page, select ‘Settings’.
+4. Scroll down to the ‘GitHub Pages’ section.
+5. Under ‘Source’ click the drop-down menu labelled ‘None’ and select ‘Master Branch’
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the ‘GitHub Pages’ section to retrieve the link to the deployed website.
+
+Below is the way to deploy the files to Heroku:
 1. From by GitPod terminal I log into my Heroku account by typing in 'heroku login' and press return .
 2. I then press any key on the keyboard to continue and it will log me into my heroku account.
 3. Also from the GitPod terminal I push the files to Heroku by typing in 'git push heroku master'.
