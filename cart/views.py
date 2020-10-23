@@ -89,7 +89,7 @@ def adjust_cart(request, item_id):
                 cart.pop(item_id)
             messages.success(request, f'Removed size {size.upper()} {product.name} from your cart')
     else:
-        if quantity in range(0, 1000):git push
+        if quantity in range(0, 1000):
             cart[item_id] = quantity
             messages.success(request, f'Updated {product.name} quantity to {cart[item_id]}')
         else:
