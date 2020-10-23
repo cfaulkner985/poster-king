@@ -445,6 +445,15 @@ I used http://pep8online.com/ to check for errors in the python code
 <img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/password-reset-mobile.png">
 </p>
 
+## Bugs
+There was a bug in my code where if the user typed in the quantity they could add as many as they like which is shown in the screenshot below.
+
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/cart-bug.png">
+</p>
+
+I fixed this issue by changing the quantity to a range between 1 and 999. This means that the user can physically type in anything from 1 to 999 when they update it in the cart. But if they type in 1000 or above then the item will be removed from the cart. This will also shop the site from crashing as they can only have a certain amount in the quantity
+
 ## Further Testing
 #### 404 Error when the page cannot be found
 <p align="center"> 
