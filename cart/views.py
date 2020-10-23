@@ -25,7 +25,7 @@ def add_to_cart(request, item_id):
         will be moved to the cart. I have decided to keep size in
         as I will be using it in the future
     """
-    
+
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -80,7 +80,7 @@ def adjust_cart(request, item_id):
     cart = request.session.get('cart', {})
 
     if size:
-        if quantity > 0:
+        if quantity in range(0, 1000):
             cart[item_id]['items_by_size'][size] = quantity
             messages.success(request, f'Updated size {size.upper()} {product.name} quantity to {cart[item_id]["items_by_size"][size]}')
         else:
@@ -89,7 +89,7 @@ def adjust_cart(request, item_id):
                 cart.pop(item_id)
             messages.success(request, f'Removed size {size.upper()} {product.name} from your cart')
     else:
-        if quantity > 0:
+        if quantity in range(0, 1000):
             cart[item_id] = quantity
             messages.success(request, f'Updated {product.name} quantity to {cart[item_id]}')
         else:
