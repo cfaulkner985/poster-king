@@ -446,6 +446,16 @@ I used http://pep8online.com/ to check for errors in the python code
 </p>
 
 ## Further Testing
+#### 404 Error when the page cannot be found
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/404-error.png">
+</p>
+
+#### 500 Error when there is an internal server error
+<p align="center"> 
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/500-error.png">
+</p>
+
 *	I checked the website on different devices and from different locations and looks good.
 *  I have tested all pages on the following devices:
      * Desktop (Chrome, Firefox & Internet Explorer)
