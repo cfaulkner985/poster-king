@@ -142,7 +142,7 @@ I used http://pep8online.com/ to check for errors in the python code
 <img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/home-page-mobile.png">
 </p>
 
-## Posters Page
+## Products Page
 ### Heading
 *	The heading of the posters loads when the page starts as expected.
 
@@ -158,14 +158,14 @@ I used http://pep8online.com/ to check for errors in the python code
 *	Clicking on the poster image bring me to the poster dtail page on each poster as expected
 *	The information below the poster shows the correct information and clicking on the category bring me to the correct category as expected
 
-#### Posters Page - Desktop View
+#### Products Page - Desktop View
 <p align="center"> 
-<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/posters-desktop.png">
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/products-desktop.png">
 </p>
 
 #### Posters Page - Mobile View
 <p align="center"> 
-<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/posters-mobile.png">
+<img src="https://github.com/cfaulkner985/poster-king/blob/master/screenshots/products-mobile.png">
 </p>
 
 ## Product Detail Page

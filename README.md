@@ -77,8 +77,8 @@ The home page has a main heading at the top of the page just below the navigatio
 
 Below this a button which when click will bring the user to the all products page wheere they will see all the products for sale on the site. 
 
-### Posters page
-The poster page has a heading at the top to make the user aware of what page they are currently on.
+### Products page
+The products page has a heading at the top to make the user aware of what page they are currently on.
 
 Below the heading the user will be able to see how many posters are currently displayed on the page. Beside it there is a sort by dropdown where the user can sort the posters by 8 fifferent views which will help the user navigate the poster better.
 
@@ -89,8 +89,8 @@ Below the posters it displays name of poster, price, category it belongs to and 
 
 Every page - except the home page - features its own hero image at the top, detailing a drawing or painting by the artist, or in the case of the about page, a photo of the artist in her studio. The purpose of the hero image is to grab attention and give a positive emotional response to the user.
 
-### Posters detail page
-The poster page detail features an image of the poster which is increased to a larger image so user can see it in more detail. To the right of the image are the details relating to the poster. On the top is the name of the poster, below that is the price of the poster, below that is the category is which the poster belongs to and below that is the rating of the poster. Below this is a description of the event in which the poster belongs to. It details date, location, matches relating to the poster.
+### Product detail page
+The product detail page features an image of the poster which is increased to a larger image so user can see it in more detail. To the right of the image are the details relating to the poster. On the top is the name of the poster, below that is the price of the poster, below that is the category is which the poster belongs to and below that is the rating of the poster. Below this is a description of the event in which the poster belongs to. It details date, location, matches relating to the poster.
 
 It also has a quantity selector which allows the user to go up and down in quantity depending on how many the user wants. The minus sign will decrease the quantity and the plus sign will increase the quantity.
 
@@ -159,8 +159,9 @@ The page has 2 buttons at the bottom. The first one is back to login button whic
 
 ## Features to implement in the future
 * I would set up a product management system where I would be able to modify posters in the front end instead of using the back end. I would have a sections for adding, editing and deleting posters.
-* I would like to add more cagegories of posters instead of just focusing in on sports movies. I would like to expand into movie posters as I know this is a very popular market.
+* I would like to add more categories of posters instead of just focusing in on sports movies. I would like to expand into movie posters as I know this is a very popular market.
 * I would also like to add more sizes in the future to the posters. At the minute I have decided to just have a default size but I have left the code in for sizes so in the future it will be easier for me to add it in.
+* I have also decided to name the items products instead of poster as in the future if I decided to add products that are not posters then I wont have to change it everywhere
 
 ## Technologies Used
 * I have used HTML, CSS and JavaScript programming languages.
