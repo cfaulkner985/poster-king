@@ -4,9 +4,7 @@
 
 # ReadMe
 
-Link to view the website - https://poster-king.herokuapp.com/
-
-I am creating an e-commerce website for selling posters and will be called Poster King.  The website will be a site where users can browse through different posters and will be able to purchase them. The website will be sports posters at the start but I have the option down the line to add different categories.
+This will be an e-commerce website for selling posters and will be called Poster King.  The website will be a site where users can browse through different posters and will be able to purchase them. The website will be sports posters at the start but I have the option down the line to add different categories.
 
 The website will have a login page which will then bring them to the main shopping page where they will be able to browse through all the products or select from different categories. Once a user adds their product to the basket then they will be able to purchase them entering in delivery and payment details. The user will also be able to see what they have purchased in the past where it will be linked to their username. If the customer currently does not have an account then they will be able to create one. When they create an account, they will also be able to change email, password and other details related to their account.
 
